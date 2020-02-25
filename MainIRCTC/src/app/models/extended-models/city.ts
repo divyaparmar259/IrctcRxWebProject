@@ -9,8 +9,9 @@ export class City extends CityBase
 
 //#region Generated Reference Properties
 //#region hotels Prop
-        hotels : HotelBase[];
+hotels : HotelBase[];
 //#endregion hotels Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -9,8 +9,9 @@ export class TrainApplicationObject extends TrainApplicationObjectBase
 
 //#region Generated Reference Properties
 //#region trainApplicationObjectType Prop
-        trainApplicationObjectType : TrainApplicationObjectTypeBase;
+trainApplicationObjectType : TrainApplicationObjectTypeBase;
 //#endregion trainApplicationObjectType Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -14,28 +14,24 @@ export class Customer extends CustomerBase
 
 //#region Generated Reference Properties
 //#region eWallet Prop
-        eWallet : EWalletBase[];
+eWallet : EWalletBase[];
 //#endregion eWallet Prop
-
 //#region hotelBooking Prop
-        hotelBooking : HotelBookingBase[];
+hotelBooking : HotelBookingBase[];
 //#endregion hotelBooking Prop
-
 //#region hotelBookingReview Prop
-        hotelBookingReview : HotelBookingReviewBase[];
+hotelBookingReview : HotelBookingReviewBase[];
 //#endregion hotelBookingReview Prop
-
 //#region passengers Prop
-        passengers : PassengerBase[];
+passengers : PassengerBase[];
 //#endregion passengers Prop
-
 //#region payment Prop
-        payment : PaymentBase[];
+payment : PaymentBase[];
 //#endregion payment Prop
-
 //#region pNRGeneration Prop
-        pNRGeneration : PNRGenerationBase[];
+pNRGeneration : PNRGenerationBase[];
 //#endregion pNRGeneration Prop
 
 //#endregion Generated Reference Properties
+
 }

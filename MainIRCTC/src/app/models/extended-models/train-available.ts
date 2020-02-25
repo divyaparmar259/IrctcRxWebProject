@@ -9,8 +9,9 @@ export class TrainAvailable extends TrainAvailableBase
 
 //#region Generated Reference Properties
 //#region train Prop
-        train : TrainBase;
+train : TrainBase;
 //#endregion train Prop
 
 //#endregion Generated Reference Properties
+
 }

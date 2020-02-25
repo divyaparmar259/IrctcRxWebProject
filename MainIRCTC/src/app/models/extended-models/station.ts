@@ -10,12 +10,12 @@ export class Station extends StationBase
 
 //#region Generated Reference Properties
 //#region train Prop
-        train : TrainBase;
+train : TrainBase;
 //#endregion train Prop
-
 //#region stationDetails Prop
-        stationDetails : StationDetailBase[];
+stationDetails : StationDetailBase[];
 //#endregion stationDetails Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -9,8 +9,9 @@ export class StationDetail extends StationDetailBase
 
 //#region Generated Reference Properties
 //#region station Prop
-        station : StationBase;
+station : StationBase;
 //#endregion station Prop
 
 //#endregion Generated Reference Properties
+
 }

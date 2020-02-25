@@ -9,8 +9,9 @@ export class EWallet extends EWalletBase
 
 //#region Generated Reference Properties
 //#region customer Prop
-        customer : CustomerBase;
+customer : CustomerBase;
 //#endregion customer Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -10,12 +10,12 @@ export class Passenger extends PassengerBase
 
 //#region Generated Reference Properties
 //#region customer Prop
-        customer : CustomerBase;
+customer : CustomerBase;
 //#endregion customer Prop
-
 //#region train Prop
-        train : TrainBase;
+train : TrainBase;
 //#endregion train Prop
 
 //#endregion Generated Reference Properties
+
 }

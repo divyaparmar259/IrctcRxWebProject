@@ -8,7 +8,16 @@ using RxWeb.Core;
 using MainIRCTC.UnitOfWork.DbEntityAudit;
 using MainIRCTC.BoundedContext.Main;
 using MainIRCTC.UnitOfWork.Main;
-#endregion Namespace
+            using MainIRCTC.Domain.vHotelModule;
+            using MainIRCTC.Domain.PnrNumberModule;
+            #endregion Namespace
+
+
+
+
+
+
+
 
 
 
@@ -32,7 +41,29 @@ namespace MainIRCTC.Api.Bootstrap
             serviceCollection.AddScoped<ILoginUow, LoginUow>();
                         serviceCollection.AddScoped<IMasterContext, MasterContext>();
             serviceCollection.AddScoped<IMasterUow, MasterUow>();
+                        serviceCollection.AddScoped<IAdminTrainContext, AdminTrainContext>();
+            serviceCollection.AddScoped<IAdminTrainUow, AdminTrainUow>();
+                    
+                        serviceCollection.AddScoped<IAdminHotelContext, AdminHotelContext>();
+            serviceCollection.AddScoped<IAdminHotelUow, AdminHotelUow>();
+            
+                        serviceCollection.AddScoped<IVHotelsContext, VHotelsContext>();
+            serviceCollection.AddScoped<IVHotelsUow, VHotelsUow>();
+                        serviceCollection.AddScoped<IPnrNumbersContext, PnrNumbersContext>();
+            serviceCollection.AddScoped<IPnrNumbersUow, PnrNumbersUow>();
             #endregion ContextService
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -41,7 +72,21 @@ namespace MainIRCTC.Api.Bootstrap
 
             #region DomainService
 
+      
+            
+            serviceCollection.AddScoped<IvHotelDomain, vHotelDomain>();
+            
+            serviceCollection.AddScoped<IPnrNumberDomain, PnrNumberDomain>();
             #endregion DomainService
+
+
+
+
+
+
+
+
+
         }
     }
 }

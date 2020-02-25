@@ -28,5 +28,6 @@ export {TrainApplicationObjectType} from './train-application-object-type';;
 export {Card} from './card';;
 export {City} from './city';;
 export {Customer} from './customer';;
+export {vHotel} from './v-hotel';;
 export {vSearchTrain} from './v-search-train';;
 export {vUser} from './v-user';;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj": {}
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj",
         "projectName": "MainIRCTC.Api",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Api\\MainIRCTC.Api.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Api\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,20 +27,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             },
             "RxWeb.Core.AspNetCore": {
               "target": "Package",
@@ -97,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj",
         "projectName": "MainIRCTC.BoundedContext",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,8 +124,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
               }
             }
           }
@@ -138,6 +142,10 @@
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             },
             "RxWeb.Core.Data": {
               "target": "Package",
@@ -167,14 +175,14 @@
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj",
         "projectName": "MainIRCTC.Domain",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\MainIRCTC.Domain.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Domain\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,17 +198,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
               }
             }
           }
@@ -213,6 +221,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -235,14 +249,14 @@
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
         "projectName": "MainIRCTC.Infrastructure",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,14 +272,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
               },
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
               }
             }
           }
@@ -279,6 +293,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "RxWeb.Core": {
               "target": "Package",
               "version": "[2.0.3-preview1, )"
@@ -322,14 +340,14 @@
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
         "projectName": "MainIRCTC.Models",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.Models\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -356,6 +374,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -392,14 +414,14 @@
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
+    "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
         "projectName": "MainIRCTC.UnitOfWork",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
+        "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.UnitOfWork\\obj\\",
+        "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -415,8 +437,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+              "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+                "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
               }
             }
           }
@@ -429,6 +451,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

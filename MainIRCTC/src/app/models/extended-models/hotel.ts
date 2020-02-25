@@ -10,12 +10,12 @@ export class Hotel extends HotelBase
 
 //#region Generated Reference Properties
 //#region city Prop
-        city : CityBase;
+city : CityBase;
 //#endregion city Prop
-
 //#region hotelBooking Prop
-        hotelBooking : HotelBookingBase[];
+hotelBooking : HotelBookingBase[];
 //#endregion hotelBooking Prop
 
 //#endregion Generated Reference Properties
+
 }

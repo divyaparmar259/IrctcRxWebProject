@@ -28,5 +28,6 @@ export {TrainApplicationObjectTypeBase} from './train-application-object-type-ba
 export {CardBase} from './card-base';;
 export {CityBase} from './city-base';;
 export {CustomerBase} from './customer-base';;
+export {vHotelBase} from './v-hotel-base';;
 export {vSearchTrainBase} from './v-search-train-base';;
 export {vUserBase} from './v-user-base';;

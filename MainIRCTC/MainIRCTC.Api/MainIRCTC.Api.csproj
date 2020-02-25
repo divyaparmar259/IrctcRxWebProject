@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="RxWeb.Core.AspNetCore" Version="3.0.4-preview1" />
     <PackageReference Include="RxWeb.Core.Localization" Version="3.0.1" />
     <PackageReference Include="RxWeb.Core.Logging" Version="3.0.1" />

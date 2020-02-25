@@ -7,5 +7,7 @@ export class vSearchTrain extends vSearchTrainBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
 }

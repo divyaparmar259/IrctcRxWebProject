@@ -10,12 +10,12 @@ export class HotelBooking extends HotelBookingBase
 
 //#region Generated Reference Properties
 //#region customer Prop
-        customer : CustomerBase;
+customer : CustomerBase;
 //#endregion customer Prop
-
 //#region hotel Prop
-        hotel : HotelBase;
+hotel : HotelBase;
 //#endregion hotel Prop
 
 //#endregion Generated Reference Properties
+
 }

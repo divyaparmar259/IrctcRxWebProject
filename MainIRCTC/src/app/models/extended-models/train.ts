@@ -12,20 +12,18 @@ export class Train extends TrainBase
 
 //#region Generated Reference Properties
 //#region stations Prop
-        stations : StationBase[];
+stations : StationBase[];
 //#endregion stations Prop
-
 //#region trainApplicationObjectType Prop
-        trainApplicationObjectType : TrainApplicationObjectTypeBase[];
+trainApplicationObjectType : TrainApplicationObjectTypeBase[];
 //#endregion trainApplicationObjectType Prop
-
 //#region passengers Prop
-        passengers : PassengerBase[];
+passengers : PassengerBase[];
 //#endregion passengers Prop
-
 //#region trainAvailable Prop
-        trainAvailable : TrainAvailableBase[];
+trainAvailable : TrainAvailableBase[];
 //#endregion trainAvailable Prop
 
 //#endregion Generated Reference Properties
+
 }
