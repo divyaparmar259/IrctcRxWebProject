@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MainIRCTC.BoundedContext\MainIRCTC.BoundedContext.csproj" />
+    <ProjectReference Include="..\MainIRCTC.UnitOfWork\MainIRCTC.UnitOfWork.csproj" />
+    <ProjectReference Include="..\MainIRCTC.Models\MainIRCTC.Models.csproj" />
+    <ProjectReference Include="..\MainIRCTC.Infrastructure\MainIRCTC.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.deps.json
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfo.cs
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\source\repos\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.pdb

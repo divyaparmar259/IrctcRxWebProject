@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "api": "MainIRCTC.Api",
+    "model": "MainIRCTC.Models",
+    "context": "MainIRCTC.BoundedContext",
+    "domain": "MainIRCTC.Domain",
+	"unitOfWork": "MainIRCTC.UnitOfWork",
+    "infrastructure": "MainIRCTC.Infrastructure",
+    "azureFunctionHttp":"",
+    "portal":"",
+    "azureFunctionBackground":""
+  },
+  "path": {
+    "dbConnection": {
+      "main": "Database.ConnectionString.Main"
+    },
+    "folder": {
+      "model": "DbEntities",
+      "context": "",
+	  "enums": "",
+	  "localizeValidationMessage": "wwwroot"
+    }
+  },
+  "annotations": {
+    "rxweb": false
+  },
+  "config": {
+    "generateEnums": false,
+    "commanTableSchema": "dbo",
+    "validationMessageLocalizationId": "15"
+  }
+}
