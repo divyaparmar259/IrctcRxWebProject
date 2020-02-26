@@ -8,15 +8,9 @@ using RxWeb.Core;
 using MainIRCTC.UnitOfWork.DbEntityAudit;
 using MainIRCTC.BoundedContext.Main;
 using MainIRCTC.UnitOfWork.Main;
-            using MainIRCTC.Domain.vHotelModule;
-            using MainIRCTC.Domain.PnrNumberModule;
+   
+            using MainIRCTC.Domain.HotelBookingModule;
             #endregion Namespace
-
-
-
-
-
-
 
 
 
@@ -34,6 +28,7 @@ namespace MainIRCTC.Api.Bootstrap
             serviceCollection.AddScoped<IAuditLog, AuditLog>();
             serviceCollection.AddScoped<IApplicationTokenProvider, ApplicationTokenProvider>();
             serviceCollection.AddScoped(typeof(IDbContextManager<>), typeof(DbContextManager<>));
+            serviceCollection.AddScoped<IHotelBookingDomain, HotelBookingDomain>();
 
             #region ContextService
 
@@ -47,50 +42,20 @@ namespace MainIRCTC.Api.Bootstrap
                         serviceCollection.AddScoped<IAdminHotelContext, AdminHotelContext>();
             serviceCollection.AddScoped<IAdminHotelUow, AdminHotelUow>();
             
-                        serviceCollection.AddScoped<IVHotelsContext, VHotelsContext>();
-            serviceCollection.AddScoped<IVHotelsUow, VHotelsUow>();
-                        serviceCollection.AddScoped<IPnrNumbersContext, PnrNumbersContext>();
-            serviceCollection.AddScoped<IPnrNumbersUow, PnrNumbersUow>();
+          
+                        serviceCollection.AddScoped<IHotelBookingContext, HotelBookingContext>();
+            serviceCollection.AddScoped<IHotelBookingUow, HotelBookingUow>();
             #endregion ContextService
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             #region DomainService
-
-      
-            
-            serviceCollection.AddScoped<IvHotelDomain, vHotelDomain>();
-            
-            serviceCollection.AddScoped<IPnrNumberDomain, PnrNumberDomain>();
+            serviceCollection.AddScoped<IHotelBookingDomain, HotelBookingDomain>();
             #endregion DomainService
-
-
-
-
-
-
-
 
 
         }
     }
 }
+          
 
-
-
-
+          
