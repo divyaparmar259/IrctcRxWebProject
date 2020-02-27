@@ -14,4 +14,7 @@ hotels : HotelBase[];
 
 //#endregion Generated Reference Properties
 
+
+
+
 }

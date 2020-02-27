@@ -30,4 +30,16 @@ export class CardBase {
         cardCvv : number;
 //#endregion cardCvv Prop
 
+
+//#region cardNumber Prop
+        @required()
+        cardNumber : any;
+//#endregion cardNumber Prop
+
+
+//#region userId Prop
+        @prop()
+        userId : number;
+//#endregion userId Prop
+
 }

@@ -7,6 +7,8 @@ using RxWeb.Core.Security;
 using RxWeb.Core.Data;
 using MainIRCTC.Models.ViewModels;
 using MainIRCTC.BoundedContext.SqlContext;
+using System;
+
 namespace MainIRCTC.Api.Controllers.UserModule
 {
     [ApiController]
@@ -24,7 +26,8 @@ namespace MainIRCTC.Api.Controllers.UserModule
             var spParameters = new SqlParameter[1];
             spParameters[0] = new SqlParameter() { ParameterName = "City", Value = searchParams["City"] };
             var result = await DbContextManager.StoreProc<StoreProcResult>("[dbo].spHotels", spParameters);
-            return Ok(result.Single().Result);
+            return Ok(result.ToList());
         }
+
     }
 }

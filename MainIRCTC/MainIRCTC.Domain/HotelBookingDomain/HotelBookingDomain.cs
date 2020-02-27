@@ -36,7 +36,7 @@ namespace MainIRCTC.Domain.HotelBookingModule
 
         public async Task AddAsync(HotelBooking entity)
         {
-            DbContextManager.BeginTransactionAsync();
+        
 
             var spParameters = new SqlParameter[4];
             spParameters[0] = new SqlParameter() {ParameterName="UserId",Value=entity.UserId};
@@ -49,7 +49,7 @@ namespace MainIRCTC.Domain.HotelBookingModule
             {
                 await DbContextManager.CommitAsync();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 DbContextManager.RollbackTransaction();
             }

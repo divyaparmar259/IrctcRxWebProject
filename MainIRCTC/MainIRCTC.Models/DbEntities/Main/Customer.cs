@@ -108,33 +108,12 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<EWallet> EWallet { get; set; }
 
-		#region HotelBooking Annotations
-
-        [InverseProperty("Customer")]
-		#endregion HotelBooking Annotations
-
-        public virtual ICollection<HotelBooking> HotelBooking { get; set; }
-
-		#region HotelBookingReview Annotations
-
-        [InverseProperty("Customer")]
-		#endregion HotelBookingReview Annotations
-
-        public virtual ICollection<HotelBookingReview> HotelBookingReview { get; set; }
-
 		#region Passengers Annotations
 
         [InverseProperty("Customer")]
 		#endregion Passengers Annotations
 
         public virtual ICollection<Passenger> Passengers { get; set; }
-
-		#region Payment Annotations
-
-        [InverseProperty("Customer")]
-		#endregion Payment Annotations
-
-        public virtual ICollection<Payment> Payment { get; set; }
 
 		#region PNRGeneration Annotations
 
@@ -143,15 +122,36 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<PNRGeneration> PNRGeneration { get; set; }
 
+		#region HotelBooking Annotations
+
+        [InverseProperty("Customer")]
+		#endregion HotelBooking Annotations
+
+        public virtual ICollection<HotelBooking> HotelBooking { get; set; }
+
+		#region Payment Annotations
+
+        [InverseProperty("Customer")]
+		#endregion Payment Annotations
+
+        public virtual ICollection<Payment> Payment { get; set; }
+
+		#region PassengerInvoice Annotations
+
+        [InverseProperty("Customer")]
+		#endregion PassengerInvoice Annotations
+
+        public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
+
 
         public Customer()
         {
 			EWallet = new HashSet<EWallet>();
-			HotelBooking = new HashSet<HotelBooking>();
-			HotelBookingReview = new HashSet<HotelBookingReview>();
 			Passengers = new HashSet<Passenger>();
-			Payment = new HashSet<Payment>();
 			PNRGeneration = new HashSet<PNRGeneration>();
+			HotelBooking = new HashSet<HotelBooking>();
+			Payment = new HashSet<Payment>();
+			PassengerInvoice = new HashSet<PassengerInvoice>();
         }
 	}
 }

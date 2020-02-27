@@ -18,4 +18,7 @@ stationDetails : StationDetailBase[];
 
 //#endregion Generated Reference Properties
 
+
+
+
 }

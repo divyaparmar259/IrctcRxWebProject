@@ -10,4 +10,7 @@ export class Card extends CardBase
 
 //#endregion Generated Reference Properties
 
+
+
+
 }

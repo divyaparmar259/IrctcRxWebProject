@@ -22,12 +22,6 @@ export class PaymentBase {
 //#endregion paymentDate Prop
 
 
-//#region paymentTime Prop
-        @required()
-        paymentTime : any;
-//#endregion paymentTime Prop
-
-
 //#region userId Prop
         @range({minimumNumber:1,maximumNumber:2147483647})
         @required()

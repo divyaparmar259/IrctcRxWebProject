@@ -18,4 +18,7 @@ hotel : HotelBase;
 
 //#endregion Generated Reference Properties
 
+
+
+
 }

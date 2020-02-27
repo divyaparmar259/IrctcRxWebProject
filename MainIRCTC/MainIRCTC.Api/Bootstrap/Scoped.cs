@@ -10,7 +10,14 @@ using MainIRCTC.BoundedContext.Main;
 using MainIRCTC.UnitOfWork.Main;
    
             using MainIRCTC.Domain.HotelBookingModule;
+            using MainIRCTC.Domain.HotelInvoiceModule;
+            using MainIRCTC.Domain.HotelListModule;
+            using MainIRCTC.Domain.CardModule;
             #endregion Namespace
+
+
+
+
 
 
 
@@ -45,12 +52,41 @@ namespace MainIRCTC.Api.Bootstrap
           
                         serviceCollection.AddScoped<IHotelBookingContext, HotelBookingContext>();
             serviceCollection.AddScoped<IHotelBookingUow, HotelBookingUow>();
+                        serviceCollection.AddScoped<IHotelInvoiceContext, HotelInvoiceContext>();
+            serviceCollection.AddScoped<IHotelInvoiceUow, HotelInvoiceUow>();
+                        
+                        serviceCollection.AddScoped<IHotelListContext, HotelListContext>();
+            serviceCollection.AddScoped<IHotelListUow, HotelListUow>();
+                       
+                        serviceCollection.AddScoped<ICardContext, CardContext>();
+            serviceCollection.AddScoped<ICardUow, CardUow>();
             #endregion ContextService
+
+
+
+
+
+
 
 
             #region DomainService
             serviceCollection.AddScoped<IHotelBookingDomain, HotelBookingDomain>();
+            
+            serviceCollection.AddScoped<IHotelInvoiceDomain, HotelInvoiceDomain>();
+            
+            
+            serviceCollection.AddScoped<IHotelListDomain, HotelListDomain>();
+            
+          
+            
+            serviceCollection.AddScoped<ICardDomain, CardDomain>();
             #endregion DomainService
+
+
+
+
+
+
 
 
         }

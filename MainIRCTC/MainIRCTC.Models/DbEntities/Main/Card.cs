@@ -43,6 +43,16 @@ namespace MainIRCTC.Models.Main
 
         public int CardCvv { get; set; }
 
+		#region CardNumber Annotations
+
+        [Required]
+		#endregion CardNumber Annotations
+
+        public long CardNumber { get; set; }
+
+
+        public Nullable<int> UserId { get; set; }
+
 
         public Card()
         {

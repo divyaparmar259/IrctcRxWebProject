@@ -18,4 +18,7 @@ hotelBooking : HotelBookingBase[];
 
 //#endregion Generated Reference Properties
 
+
+
+
 }
