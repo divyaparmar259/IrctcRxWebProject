@@ -45,11 +45,10 @@ namespace MainIRCTC.Models.Main
 
 		#region CardNumber Annotations
 
-        [Range(1,int.MaxValue)]
         [Required]
 		#endregion CardNumber Annotations
 
-        public int CardNumber { get; set; }
+        public long CardNumber { get; set; }
 
 		#region UserId Annotations
 

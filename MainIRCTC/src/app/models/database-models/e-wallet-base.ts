@@ -30,5 +30,12 @@ export class EWalletBase {
 //#endregion refund Prop
 
 
+//#region eWalletAmount Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
+        eWalletAmount : number;
+//#endregion eWalletAmount Prop
+
+
 
 }

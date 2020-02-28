@@ -19,4 +19,8 @@ hotels : HotelBase[];
 
 
 
+
+
+
+
 }

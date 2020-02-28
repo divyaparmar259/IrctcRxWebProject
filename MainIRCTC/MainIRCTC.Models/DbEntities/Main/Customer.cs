@@ -101,12 +101,12 @@ namespace MainIRCTC.Models.Main
 
         public long AadharCardNumber { get; set; }
 
-		#region EWallet Annotations
+		#region PassengerInvoice Annotations
 
         [InverseProperty("Customer")]
-		#endregion EWallet Annotations
+		#endregion PassengerInvoice Annotations
 
-        public virtual ICollection<EWallet> EWallet { get; set; }
+        public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
 
 		#region HotelBooking Annotations
 
@@ -136,12 +136,12 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<Payment> Payment { get; set; }
 
-		#region PassengerInvoice Annotations
+		#region SearchTrainResult Annotations
 
         [InverseProperty("Customer")]
-		#endregion PassengerInvoice Annotations
+		#endregion SearchTrainResult Annotations
 
-        public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
+        public virtual ICollection<SearchTrainResult> SearchTrainResult { get; set; }
 
 		#region Cards Annotations
 
@@ -150,16 +150,32 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<Card> Cards { get; set; }
 
+		#region EWallet Annotations
+
+        [InverseProperty("Customer")]
+		#endregion EWallet Annotations
+
+        public virtual ICollection<EWallet> EWallet { get; set; }
+
+		#region PNRGeneration Annotations
+
+        [InverseProperty("Customer")]
+		#endregion PNRGeneration Annotations
+
+        public virtual ICollection<PNRGeneration> PNRGeneration { get; set; }
+
 
         public Customer()
         {
-			EWallet = new HashSet<EWallet>();
+			PassengerInvoice = new HashSet<PassengerInvoice>();
 			HotelBooking = new HashSet<HotelBooking>();
 			HotelBookingReview = new HashSet<HotelBookingReview>();
 			Passengers = new HashSet<Passenger>();
 			Payment = new HashSet<Payment>();
-			PassengerInvoice = new HashSet<PassengerInvoice>();
+			SearchTrainResult = new HashSet<SearchTrainResult>();
 			Cards = new HashSet<Card>();
+			EWallet = new HashSet<EWallet>();
+			PNRGeneration = new HashSet<PNRGeneration>();
         }
 	}
 }

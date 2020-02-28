@@ -54,19 +54,19 @@ export class vSearchTrainBase {
 
 //#region stationDistance Prop
         @gridColumn({visible: true, columnIndex:9, allowSorting: true, headerKey: 'stationDistance', keyColumn: false})
-        stationDistance : any;
+        stationDistance : number;
 //#endregion stationDistance Prop
 
 
 //#region trainFarePerKm Prop
         @gridColumn({visible: true, columnIndex:10, allowSorting: true, headerKey: 'trainFarePerKm', keyColumn: false})
-        trainFarePerKm : any;
+        trainFarePerKm : number;
 //#endregion trainFarePerKm Prop
 
 
 //#region trainApplicationObjectFare Prop
         @gridColumn({visible: true, columnIndex:11, allowSorting: true, headerKey: 'trainApplicationObjectFare', keyColumn: false})
-        trainApplicationObjectFare : any;
+        trainApplicationObjectFare : number;
 //#endregion trainApplicationObjectFare Prop
 
 }

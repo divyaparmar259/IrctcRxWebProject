@@ -46,10 +46,11 @@ namespace MainIRCTC.Models.Main
 
 		#region StationDistance Annotations
 
+        [Range(1,int.MaxValue)]
         [Required]
 		#endregion StationDistance Annotations
 
-        public double StationDistance { get; set; }
+        public int StationDistance { get; set; }
 
 		#region Train Annotations
 

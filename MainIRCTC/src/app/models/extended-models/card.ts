@@ -8,12 +8,15 @@ export class Card extends CardBase
 
 
 //#region Generated Reference Properties
-
 //#region customer Prop
-        customer : CustomerBase;
+customer : CustomerBase;
 //#endregion customer Prop
 
 //#endregion Generated Reference Properties
+
+
+
+
 
 
 

@@ -44,8 +44,9 @@ export class TrainBase {
 
 
 //#region trainFarePerKm Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        trainFarePerKm : any;
+        trainFarePerKm : number;
 //#endregion trainFarePerKm Prop
 
 

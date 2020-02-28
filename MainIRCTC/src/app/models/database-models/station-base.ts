@@ -32,8 +32,9 @@ export class StationBase {
 
 
 //#region stationDistance Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        stationDistance : any;
+        stationDistance : number;
 //#endregion stationDistance Prop
 
 

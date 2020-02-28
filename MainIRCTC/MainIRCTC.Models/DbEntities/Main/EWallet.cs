@@ -43,6 +43,14 @@ namespace MainIRCTC.Models.Main
 
         public double Refund { get; set; }
 
+		#region EWalletAmount Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+		#endregion EWalletAmount Annotations
+
+        public int EWalletAmount { get; set; }
+
         [NotMapped]
         public int PNRId { get; set; }
 

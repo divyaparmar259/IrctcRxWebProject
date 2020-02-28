@@ -23,4 +23,8 @@ hotelBooking : HotelBookingBase[];
 
 
 
+
+
+
+
 }

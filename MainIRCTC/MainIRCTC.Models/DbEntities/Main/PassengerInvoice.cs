@@ -11,6 +11,14 @@ namespace MainIRCTC.Models.Main
     [Table("PassengerInvoice",Schema="dbo")]
     public partial class PassengerInvoice
     {
+		#region TotalPrice Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+		#endregion TotalPrice Annotations
+
+        public int TotalPrice { get; set; }
+
 		#region passengerInvoiceId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -19,22 +27,14 @@ namespace MainIRCTC.Models.Main
 
         public int passengerInvoiceId { get; set; }
 
-		#region userId Annotations
+		#region UserId Annotations
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("Customers","dbo","","userId")]
-		#endregion userId Annotations
+        [RelationshipTableAttribue("Customers","dbo","","UserId")]
+		#endregion UserId Annotations
 
-        public int userId { get; set; }
-
-		#region TotalPrice Annotations
-
-        [Range(1,int.MaxValue)]
-        [Required]
-		#endregion TotalPrice Annotations
-
-        public int TotalPrice { get; set; }
+        public int UserId { get; set; }
 
 		#region NumberOfPassengers Annotations
 
@@ -46,7 +46,7 @@ namespace MainIRCTC.Models.Main
 
 		#region Customer Annotations
 
-        [ForeignKey(nameof(userId))]
+        [ForeignKey(nameof(UserId))]
         [InverseProperty(nameof(MainIRCTC.Models.Main.Customer.PassengerInvoice))]
 		#endregion Customer Annotations
 

@@ -37,3 +37,16 @@ C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\n
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csproj.CopyComplete
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csprojAssemblyReference.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.AssemblyInfo.cs
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.deps.json
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csproj.CopyComplete

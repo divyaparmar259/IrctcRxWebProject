@@ -23,4 +23,8 @@ stationDetails : StationDetailBase[];
 
 
 
+
+
+
+
 }

@@ -34,14 +34,19 @@ namespace MainIRCTC.Models.Main
 
         public string TrainApplicationObjectClassName { get; set; }
 
+		#region StationDistance Annotations
 
-        public double StationDistance { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [System.ComponentModel.DataAnnotations.Key]
+		#endregion StationDistance Annotations
+
+        public int StationDistance { get; set; }
 
 
-        public double TrainFarePerKm { get; set; }
+        public int TrainFarePerKm { get; set; }
 
 
-        public double TrainApplicationObjectFare { get; set; }
+        public int TrainApplicationObjectFare { get; set; }
 
 
         public vSearchTrain()
