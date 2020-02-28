@@ -10,6 +10,12 @@ export class vHotelBase {
 //#endregion cityName Prop
 
 
+//#region hotelId Prop
+        @gridColumn({visible: true, columnIndex:2, allowSorting: true, headerKey: 'hotelId', keyColumn: true})
+        hotelId : number;
+//#endregion hotelId Prop
+
+
 //#region hotelName Prop
         @gridColumn({visible: true, columnIndex:2, allowSorting: true, headerKey: 'hotelName', keyColumn: false})
         hotelName : string;
@@ -26,5 +32,11 @@ export class vHotelBase {
         @gridColumn({visible: true, columnIndex:4, allowSorting: true, headerKey: 'hotelPricePerNight', keyColumn: false})
         hotelPricePerNight : any;
 //#endregion hotelPricePerNight Prop
+
+
+//#region cityId Prop
+        @gridColumn({visible: true, columnIndex:6, allowSorting: true, headerKey: 'cityId', keyColumn: false})
+        cityId : number;
+//#endregion cityId Prop
 
 }

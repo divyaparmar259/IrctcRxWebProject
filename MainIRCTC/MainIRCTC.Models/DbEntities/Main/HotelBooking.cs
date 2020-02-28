@@ -51,13 +51,6 @@ namespace MainIRCTC.Models.Main
 
         public System.DateTime UserCheckOutDate { get; set; }
 
-		#region TotalePrice Annotations
-
-        [Required]
-		#endregion TotalePrice Annotations
-
-        public double TotalePrice { get; set; }
-
 		#region Customer Annotations
 
         [ForeignKey(nameof(UserId))]

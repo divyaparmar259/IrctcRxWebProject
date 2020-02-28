@@ -33,6 +33,13 @@ namespace MainIRCTC.Models.Main
 
         public System.DateTime PaymentDate { get; set; }
 
+		#region PaymentTime Annotations
+
+        [Required]
+		#endregion PaymentTime Annotations
+
+        public TimeSpan PaymentTime { get; set; }
+
 		#region UserId Annotations
 
         [Range(1,int.MaxValue)]

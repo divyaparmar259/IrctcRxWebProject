@@ -24,5 +24,19 @@ export class PNRGenerationBase {
 //#endregion paymentId Prop
 
 
+//#region passengerId Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
+        passengerId : number;
+//#endregion passengerId Prop
+
+
+//#region passengerInvoiceId Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
+        passengerInvoiceId : number;
+//#endregion passengerInvoiceId Prop
+
+
 
 }

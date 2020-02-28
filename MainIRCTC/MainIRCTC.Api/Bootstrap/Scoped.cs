@@ -13,12 +13,11 @@ using MainIRCTC.UnitOfWork.Main;
             using MainIRCTC.Domain.HotelInvoiceModule;
             using MainIRCTC.Domain.HotelListModule;
             using MainIRCTC.Domain.CardModule;
+using MainIRCTC.UnitOfWork.Main;
+using MainIRCTC.BoundedContext.Main;
+using MainIRCTC.Domain.CancellationModule;
+using MainIRCTC.Domain.CustomerLoginModule;
             #endregion Namespace
-
-
-
-
-
 
 
 
@@ -60,7 +59,29 @@ namespace MainIRCTC.Api.Bootstrap
                        
                         serviceCollection.AddScoped<ICardContext, CardContext>();
             serviceCollection.AddScoped<ICardUow, CardUow>();
+
+            serviceCollection.AddScoped<ICustomerContext, CustomerContext>();
+            serviceCollection.AddScoped<ICustomerUow, CustomerUow>();
+            serviceCollection.AddScoped<ICustomerLoginContext, CustomerLoginContext>();
+            serviceCollection.AddScoped<ICustomerLoginUow, CustomerLoginUow>();
+
+
+            serviceCollection.AddScoped<IBookPassengerContext, BookPassengerContext>();
+            serviceCollection.AddScoped<IBookPassengerUow, BookPassengerUow>();
+
+
+
+
+            serviceCollection.AddScoped<ICancellationContext, CancellationContext>();
+            serviceCollection.AddScoped<ICancellationUow, CancellationUow>();
+
+            serviceCollection.AddScoped<IPNRContext, PNRContext>();
+            serviceCollection.AddScoped<IPNRUow, PNRUow>();
+
+                        serviceCollection.AddScoped<ICustomerLoginContext, CustomerLoginContext>();
+            serviceCollection.AddScoped<ICustomerLoginUow, CustomerLoginUow>();
             #endregion ContextService
+
 
 
 
@@ -80,7 +101,11 @@ namespace MainIRCTC.Api.Bootstrap
           
             
             serviceCollection.AddScoped<ICardDomain, CardDomain>();
+            serviceCollection.AddScoped<ICancellationDomain, CancellationDomain>();
+            
+            serviceCollection.AddScoped<ICustomerLoginDomain, CustomerLoginDomain>();
             #endregion DomainService
+
 
 
 

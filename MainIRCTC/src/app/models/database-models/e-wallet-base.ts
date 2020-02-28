@@ -24,10 +24,10 @@ export class EWalletBase {
 //#endregion paymentId Prop
 
 
-//#region eWalletBalance Prop
+//#region refund Prop
         @required()
-        eWalletBalance : any;
-//#endregion eWalletBalance Prop
+        refund : any;
+//#endregion refund Prop
 
 
 

@@ -108,26 +108,26 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<EWallet> EWallet { get; set; }
 
-		#region Passengers Annotations
-
-        [InverseProperty("Customer")]
-		#endregion Passengers Annotations
-
-        public virtual ICollection<Passenger> Passengers { get; set; }
-
-		#region PNRGeneration Annotations
-
-        [InverseProperty("Customer")]
-		#endregion PNRGeneration Annotations
-
-        public virtual ICollection<PNRGeneration> PNRGeneration { get; set; }
-
 		#region HotelBooking Annotations
 
         [InverseProperty("Customer")]
 		#endregion HotelBooking Annotations
 
         public virtual ICollection<HotelBooking> HotelBooking { get; set; }
+
+		#region HotelBookingReview Annotations
+
+        [InverseProperty("Customer")]
+		#endregion HotelBookingReview Annotations
+
+        public virtual ICollection<HotelBookingReview> HotelBookingReview { get; set; }
+
+		#region Passengers Annotations
+
+        [InverseProperty("Customer")]
+		#endregion Passengers Annotations
+
+        public virtual ICollection<Passenger> Passengers { get; set; }
 
 		#region Payment Annotations
 
@@ -143,15 +143,23 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
 
+		#region Cards Annotations
+
+        [InverseProperty("Customer")]
+		#endregion Cards Annotations
+
+        public virtual ICollection<Card> Cards { get; set; }
+
 
         public Customer()
         {
 			EWallet = new HashSet<EWallet>();
-			Passengers = new HashSet<Passenger>();
-			PNRGeneration = new HashSet<PNRGeneration>();
 			HotelBooking = new HashSet<HotelBooking>();
+			HotelBookingReview = new HashSet<HotelBookingReview>();
+			Passengers = new HashSet<Passenger>();
 			Payment = new HashSet<Payment>();
 			PassengerInvoice = new HashSet<PassengerInvoice>();
+			Cards = new HashSet<Card>();
         }
 	}
 }

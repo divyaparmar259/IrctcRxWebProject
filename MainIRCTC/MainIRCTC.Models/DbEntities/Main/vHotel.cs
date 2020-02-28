@@ -13,6 +13,14 @@ namespace MainIRCTC.Models.Main
 
         public string CityName { get; set; }
 
+		#region HotelId Annotations
+
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [System.ComponentModel.DataAnnotations.Key]
+		#endregion HotelId Annotations
+
+        public int HotelId { get; set; }
+
 
         public string HotelName { get; set; }
 
@@ -21,6 +29,9 @@ namespace MainIRCTC.Models.Main
 
 
         public double HotelPricePerNight { get; set; }
+
+
+        public int CityId { get; set; }
 
 
         public vHotel()

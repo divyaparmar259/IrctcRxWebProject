@@ -28,3 +28,18 @@ C:\Users\radix\Desktop\IRCTC\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcor
 C:\Users\radix\Desktop\IRCTC\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.csproj.CopyComplete
 C:\Users\radix\Desktop\IRCTC\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.dll
 C:\Users\radix\Desktop\IRCTC\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.pdb
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.deps.json
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.dll
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.pdb
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.dll
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.pdb
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.csprojAssemblyReference.cache
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.AssemblyInfo.cs
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.csproj.CopyComplete
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.dll
+C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Infrastructure\obj\Debug\netcoreapp3.1\MainIRCTC.Infrastructure.pdb

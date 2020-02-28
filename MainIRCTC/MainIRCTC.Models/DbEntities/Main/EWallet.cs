@@ -36,12 +36,15 @@ namespace MainIRCTC.Models.Main
 
         public int PaymentId { get; set; }
 
-		#region EWalletBalance Annotations
+		#region Refund Annotations
 
         [Required]
-		#endregion EWalletBalance Annotations
+		#endregion Refund Annotations
 
-        public double EWalletBalance { get; set; }
+        public double Refund { get; set; }
+
+        [NotMapped]
+        public int PNRId { get; set; }
 
 		#region Customer Annotations
 

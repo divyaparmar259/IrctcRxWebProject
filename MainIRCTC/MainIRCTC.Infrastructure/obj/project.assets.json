@@ -6817,11 +6817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
       "projectName": "MainIRCTC.Infrastructure",
-      "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.Infrastructure\\MainIRCTC.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6837,14 +6837,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+            "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
             },
-            "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
-              "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
+            "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+              "projectPath": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj"
             },
-            "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\radix\\Desktop\\IRCTC\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
+            "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\radix\\Desktop\\New folder (2)\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj"
             }
           }
         }
