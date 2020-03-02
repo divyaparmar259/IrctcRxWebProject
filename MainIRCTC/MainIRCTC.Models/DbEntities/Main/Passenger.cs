@@ -13,8 +13,8 @@ namespace MainIRCTC.Models.Main
     {
 		#region PassengerId Annotations
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [System.ComponentModel.DataAnnotations.Key]
+        [Range(1,int.MaxValue)]
+        [Required]
 		#endregion PassengerId Annotations
 
         public int PassengerId { get; set; }
@@ -60,15 +60,6 @@ namespace MainIRCTC.Models.Main
 
         public string PassengerCountry { get; set; }
 
-		#region TrainId Annotations
-
-        [Range(1,int.MaxValue)]
-        [Required]
-        [RelationshipTableAttribue("Trains","dbo","","TrainId")]
-		#endregion TrainId Annotations
-
-        public int TrainId { get; set; }
-
 		#region Customer Annotations
 
         [ForeignKey(nameof(UserId))]
@@ -76,14 +67,6 @@ namespace MainIRCTC.Models.Main
 		#endregion Customer Annotations
 
         public virtual Customer Customer { get; set; }
-
-		#region Train Annotations
-
-        [ForeignKey(nameof(TrainId))]
-        [InverseProperty(nameof(MainIRCTC.Models.Main.Train.Passengers))]
-		#endregion Train Annotations
-
-        public virtual Train Train { get; set; }
 
 
         public Passenger()

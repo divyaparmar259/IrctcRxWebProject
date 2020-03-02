@@ -5,7 +5,8 @@ import { gridColumn } from "@rxweb/grid"
 export class PassengerBase {
 
 //#region passengerId Prop
-        @prop()
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
         passengerId : number;
 //#endregion passengerId Prop
 
@@ -43,15 +44,6 @@ export class PassengerBase {
         @maxLength({value:50})
         passengerCountry : string;
 //#endregion passengerCountry Prop
-
-
-//#region trainId Prop
-        @range({minimumNumber:1,maximumNumber:2147483647})
-        @required()
-        trainId : number;
-//#endregion trainId Prop
-
-
 
 
 

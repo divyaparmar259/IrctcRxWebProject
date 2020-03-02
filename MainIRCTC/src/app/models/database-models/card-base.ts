@@ -32,9 +32,8 @@ export class CardBase {
 
 
 //#region cardNumber Prop
-        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        cardNumber : number;
+        cardNumber : any;
 //#endregion cardNumber Prop
 
 

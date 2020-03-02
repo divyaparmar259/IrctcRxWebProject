@@ -26,10 +26,10 @@ namespace MainIRCTC.Domain.CancellationModule
             var x = await Uow.Repository<PNRGeneration>().SingleOrDefaultAsync(t => t.PNRId == parameters.PNRId);
             if (x != null)
             {
-                var pnrDetails = await Uow.Repository<PassengerInvoice>().SingleOrDefaultAsync(t => t.passengerInvoiceId == x.PassengerInvoiceId);
+                var pnrDetails = await Uow.Repository<PassengerInvoice>().SingleOrDefaultAsync(r => r.passengerInvoiceId == x.PassengerInvoiceId);
                 var z = pnrDetails.TotalPrice / pnrDetails.NumberOfPassengers;
                 var currentDate = DateTime.Now;
-                var time = await Uow.Repository<Payment>().SingleOrDefaultAsync(t => t.UserId == x.UserId);               
+                var time = await Uow.Repository<Payment>().SingleOrDefaultAsync(r => r.UserId == x.UserId);               
                 TimeSpan t = currentDate - time.PaymentDate;
                 float d ;
 

@@ -31,3 +31,25 @@ C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.BoundedContext\bin\Deb
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.csproj.CopyComplete
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.csprojAssemblyReference.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.AssemblyInfoInputs.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.AssemblyInfo.cs
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.deps.json
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.csproj.CopyComplete
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.AssemblyInfo.cs
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.deps.json
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.BoundedContext\obj\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.csproj.CopyComplete

@@ -22,3 +22,19 @@ C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Models\obj\Debug\netco
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfo.cs
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.dll
 C:\Users\radix\Desktop\New folder (2)\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.csprojAssemblyReference.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfoInputs.cache
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfo.cs
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.deps.json
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.AssemblyInfo.cs
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\obj\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.deps.json
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+C:\Users\radix\source\repos\New folder\MainIRCTC\MainIRCTC.Models\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb

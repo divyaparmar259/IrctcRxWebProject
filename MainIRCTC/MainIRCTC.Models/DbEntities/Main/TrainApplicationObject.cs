@@ -38,10 +38,11 @@ namespace MainIRCTC.Models.Main
 
 		#region TrainApplicationObjectFare Annotations
 
+        [Range(1,int.MaxValue)]
         [Required]
 		#endregion TrainApplicationObjectFare Annotations
 
-        public double TrainApplicationObjectFare { get; set; }
+        public int TrainApplicationObjectFare { get; set; }
 
 		#region TrainApplicationObjectType Annotations
 

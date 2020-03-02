@@ -8,16 +8,17 @@ using MainIRCTC.Models.Enums.Main;
 using MainIRCTC.BoundedContext.SqlContext;
 namespace MainIRCTC.Models.Main
 {
-    [Table("EWallet",Schema="dbo")]
+    [Table("EWallet", Schema = "dbo")]
     public partial class EWallet
     {
-		#region EWalletId Annotations
+        #region EWalletId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-		#endregion EWalletId Annotations
+        #endregion EWalletId Annotations
 
         public int EWalletId { get; set; }
+
 
 		#region UserId Annotations
 
@@ -28,7 +29,12 @@ namespace MainIRCTC.Models.Main
 
         public int UserId { get; set; }
 
-		#region PaymentId Annotations
+        [NotMapped]
+        public int PNRId { get; set; }
+
+
+
+        #region PaymentId Annotations
 
         [Range(1,int.MaxValue)]
         [Required]
@@ -43,8 +49,13 @@ namespace MainIRCTC.Models.Main
 
         public double Refund { get; set; }
 
-        [NotMapped]
-        public int PNRId { get; set; }
+		#region EWalletAmount Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+		#endregion EWalletAmount Annotations
+
+        public int EWalletAmount { get; set; }
 
 		#region Customer Annotations
 

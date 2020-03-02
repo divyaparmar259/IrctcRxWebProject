@@ -4,6 +4,13 @@ import { gridColumn } from "@rxweb/grid"
 
 export class PassengerInvoiceBase {
 
+//#region totalPrice Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
+        totalPrice : number;
+//#endregion totalPrice Prop
+
+
 //#region passengerInvoiceId Prop
         @prop()
         passengerInvoiceId : number;
@@ -15,13 +22,6 @@ export class PassengerInvoiceBase {
         @required()
         userId : number;
 //#endregion userId Prop
-
-
-//#region totalPrice Prop
-        @range({minimumNumber:1,maximumNumber:2147483647})
-        @required()
-        totalPrice : number;
-//#endregion totalPrice Prop
 
 
 //#region numberOfPassengers Prop

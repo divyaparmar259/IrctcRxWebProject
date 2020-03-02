@@ -25,8 +25,9 @@ export class TrainApplicationObjectBase {
 
 
 //#region trainApplicationObjectFare Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        trainApplicationObjectFare : any;
+        trainApplicationObjectFare : number;
 //#endregion trainApplicationObjectFare Prop
 
 
