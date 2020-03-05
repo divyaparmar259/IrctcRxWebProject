@@ -17,7 +17,7 @@ namespace MainIRCTC.Models.Main
         public System.DateTime UserCheckOutDate { get; set; }
 
 
-        public double TotalePrice { get; set; }
+        public double TotalPrice { get; set; }
 
 
         public string HotelName { get; set; }

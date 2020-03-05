@@ -50,3 +50,16 @@ C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netco
 C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
 C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
 C:\Users\radix\Desktop\New folder\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csproj.CopyComplete
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.deps.json
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.dll
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.pdb
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.dll
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.dll
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.BoundedContext.pdb
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\bin\Debug\netcoreapp3.1\MainIRCTC.Models.pdb
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csprojAssemblyReference.cache
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.AssemblyInfoInputs.cache
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.AssemblyInfo.cs
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.csproj.CopyComplete
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.dll
+D:\1\MainIRCTC\MainIRCTC.UnitOfWork\obj\Debug\netcoreapp3.1\MainIRCTC.UnitOfWork.pdb

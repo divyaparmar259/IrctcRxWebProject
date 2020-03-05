@@ -42,14 +42,21 @@ namespace MainIRCTC.Models.Main
         [Required]
 		#endregion UserCheckInDate Annotations
 
-        public System.DateTime UserCheckInDate { get; set; }
+        public System.DateTimeOffset UserCheckInDate { get; set; }
 
 		#region UserCheckOutDate Annotations
 
         [Required]
 		#endregion UserCheckOutDate Annotations
 
-        public System.DateTime UserCheckOutDate { get; set; }
+        public System.DateTimeOffset UserCheckOutDate { get; set; }
+
+		#region TotalPrice Annotations
+
+        [Required]
+		#endregion TotalPrice Annotations
+
+        public double TotalPrice { get; set; }
 
 		#region Customer Annotations
 

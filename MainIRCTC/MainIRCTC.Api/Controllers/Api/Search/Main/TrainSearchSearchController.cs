@@ -8,8 +8,11 @@ using RxWeb.Core.Data;
 //using RxWeb.Core.Common.Binder;
 using MainIRCTC.Models.ViewModels;
 using MainIRCTC.BoundedContext.SqlContext;
+using Microsoft.AspNetCore.Authorization;
+
 namespace MainIRCTC.Api.Controllers.Module
 {
+    [AllowAnonymous]
     [ApiController]
 	[Route("api/[controller]")]
     public class SearchTrainSearchController : ControllerBase
@@ -18,7 +21,7 @@ namespace MainIRCTC.Api.Controllers.Module
         public SearchTrainSearchController(IDbContextManager<MainSqlDbContext> dbContextManager) {
             DbContextManager = dbContextManager;
         }
-
+        
 		[HttpPost]
         public async Task<IActionResult> Post([FromBody]Dictionary<string,string> searchParams)
         {

@@ -14,4 +14,8 @@ export class vHotel extends vHotelBase
 
 
 
+
+
+
+
 }

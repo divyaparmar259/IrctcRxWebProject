@@ -23,7 +23,6 @@ namespace MainIRCTC.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("Customers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
@@ -36,6 +35,14 @@ namespace MainIRCTC.Models.Main
 
         public int PaymentId { get; set; }
 
+		#region PassengerId Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+		#endregion PassengerId Annotations
+
+        public int PassengerId { get; set; }
+
 		#region PassengerInvoiceId Annotations
 
         [Range(1,int.MaxValue)]
@@ -44,14 +51,6 @@ namespace MainIRCTC.Models.Main
 		#endregion PassengerInvoiceId Annotations
 
         public int PassengerInvoiceId { get; set; }
-
-		#region Customer Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(MainIRCTC.Models.Main.Customer.PNRGeneration))]
-		#endregion Customer Annotations
-
-        public virtual Customer Customer { get; set; }
 
 		#region PassengerInvoice Annotations
 

@@ -10,4 +10,8 @@ export class vPNR extends vPNRBase
 
 //#endregion Generated Reference Properties
 
+
+
+
+
 }

@@ -11,4 +11,8 @@ export class vHotelInvoice extends vHotelInvoiceBase
 //#endregion Generated Reference Properties
 
 
+
+
+
+
 }

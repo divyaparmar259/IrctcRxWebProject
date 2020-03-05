@@ -1,0 +1,85 @@
+<div class="card">
+    <div class="card-header">
+    Trains
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Search Train</h5>
+      <form [formGroup]="TrainformGroup">
+        <div class="row">
+          <div class="col">
+            <select name="StationStartingPoint" (change)="selectSourceHandler($event)" class="form-control" >
+<option > From</option>
+<option value="Delhi">Delhi</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Bhavnagar">Bhavnagar</option>
+</select>
+          </div>
+          <div class="col">
+             <select name="StationEndingPoint" (change)="selectDestinationHandler($event)" class="form-control">
+<option > To</option>
+<option value="Surat">Surat</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Bhavnagar">Bhavnagar</option>
+</select>
+          </div>
+          <div class="col">
+            <input type="date" class="form-control" (change)="selectDayHandler($event)" fromControlName="TrainAvailableDay">
+          </div>
+          
+          <div class="col">
+            <input type="text" class="form-control" (change)="selectClassHandler($event)" placeholder="Class" fromControlName="TrainApplicationObjectClassName">
+          </div>
+        </div>
+      </form>
+      <div>
+        <button class="btn btn-primary" (click)="SearchTrain()" style="margin-top: 20px;">Search</button>
+
+</div>
+
+</div>
+
+</div>
+<div class="container">
+
+<div *ngFor="let Trains of result,let i=index">
+
+<div class="card-body" >
+ <table>
+     <tr>
+   <td>  {{Trains.TrainName}}</td>
+   </tr>
+   <tr>
+  <td>   {{Trains.StationStartingPoint}}</td>
+    </tr>
+    <tr>
+  <td>  {{Trains.StationEndingPoint}}</td>
+    </tr>
+    <tr>
+  <td>  {{Trains.StationDepartTime}}</td>
+</tr>
+<tr>
+ <td>    {{Trains.StationArriveTime}}</td>
+    </tr>
+    <tr>
+   <td>  {{Trains.TrainObjectTypeName }}</td>
+    </tr>
+    <tr>
+  <td>  {{Trains.TrainAvailableDay}}</td>
+  </tr>
+  <tr>
+      <td>
+     {{Trains.TrainApplicationObjectClassName}}</td>
+    </tr>
+    <tr><td>
+    {{Trains.FarePerPerson}}</td></tr>
+   <tr><td> <button (click)="book(i)" class="btn btn-primary" >Book Now</button></td></tr>
+   
+
+    </table>
+</div>
+</div>
+</div>
+
+       
+      
+ 

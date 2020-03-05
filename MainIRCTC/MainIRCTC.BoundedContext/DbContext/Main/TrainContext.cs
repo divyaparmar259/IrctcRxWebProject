@@ -23,7 +23,9 @@ namespace MainIRCTC.BoundedContext.Main
             		public DbSet<Passenger> Passengers { get; set; }
             	
 		public DbSet<PassengerInvoice> PassengerInvoice { get; set; }
+            		public DbSet<vPassengerInvoice> vPassengerInvoice { get; set; }
             #endregion DbSets
+
 
 
 

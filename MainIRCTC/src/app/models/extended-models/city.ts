@@ -26,4 +26,8 @@ hotels : HotelBase[];
 
 
 
+
+
+
+
 }

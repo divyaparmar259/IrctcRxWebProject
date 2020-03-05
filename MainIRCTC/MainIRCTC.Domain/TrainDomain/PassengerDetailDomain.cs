@@ -36,13 +36,13 @@ namespace MainIRCTC.Domain.TrainModule
 
         public async Task AddAsync(Passenger entity)
         {
-            var spParameters = new SqlParameter[6];
-            spParameters[0] = new SqlParameter() { ParameterName = "PassengerId", Value = entity.PassengerId };
-            spParameters[1] = new SqlParameter() { ParameterName = "userId", Value = entity.UserId };
-            spParameters[2] = new SqlParameter() { ParameterName = "PassengerName", Value = entity.PassengerName };
-            spParameters[3] = new SqlParameter() { ParameterName = "PassengerAge", Value = entity.PassengerAge };
-            spParameters[4] = new SqlParameter() { ParameterName = "PassengerGender", Value = entity.PassengerGender };
-            spParameters[5] = new SqlParameter() { ParameterName = "PassengerCountry", Value = entity.PassengerCountry };
+            var spParameters = new SqlParameter[5];
+       
+            spParameters[0] = new SqlParameter() { ParameterName = "userId", Value = entity.UserId };
+            spParameters[1] = new SqlParameter() { ParameterName = "PassengerName", Value = entity.PassengerName };
+            spParameters[2] = new SqlParameter() { ParameterName = "PassengerAge", Value = entity.PassengerAge };
+            spParameters[3] = new SqlParameter() { ParameterName = "PassengerGender", Value = entity.PassengerGender };
+            spParameters[4] = new SqlParameter() { ParameterName = "PassengerCountry", Value = entity.PassengerCountry };
 
             await DbContextManager.StoreProc<StoreProcResult>("[dbo].spPassengerDetails ", spParameters);
             try

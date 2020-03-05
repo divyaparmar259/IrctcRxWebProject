@@ -18,4 +18,8 @@ auditRecordDetails : AuditRecordDetailBase[];
 
 //#endregion Generated Reference Properties
 
+
+
+
+
 }

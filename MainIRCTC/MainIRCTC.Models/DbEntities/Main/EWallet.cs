@@ -16,9 +16,12 @@ namespace MainIRCTC.Models.Main
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
         #endregion EWalletId Annotations
+        [NotMapped]
+        public int PNRId { get; set; }
+
+
 
         public int EWalletId { get; set; }
-
 
 		#region UserId Annotations
 
@@ -29,12 +32,7 @@ namespace MainIRCTC.Models.Main
 
         public int UserId { get; set; }
 
-        [NotMapped]
-        public int PNRId { get; set; }
-
-
-
-        #region PaymentId Annotations
+		#region PaymentId Annotations
 
         [Range(1,int.MaxValue)]
         [Required]
@@ -48,14 +46,6 @@ namespace MainIRCTC.Models.Main
 		#endregion Refund Annotations
 
         public double Refund { get; set; }
-
-		#region EWalletAmount Annotations
-
-        [Range(1,int.MaxValue)]
-        [Required]
-		#endregion EWalletAmount Annotations
-
-        public int EWalletAmount { get; set; }
 
 		#region Customer Annotations
 

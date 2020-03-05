@@ -4,6 +4,12 @@ import { gridColumn } from "@rxweb/grid"
 
 export class vPassengerInvoiceBase {
 
+//#region userId Prop
+        @gridColumn({visible: true, columnIndex:9, allowSorting: true, headerKey: 'userId', keyColumn: false})
+        userId : number;
+//#endregion userId Prop
+
+
 //#region passengerName Prop
         @gridColumn({visible: true, columnIndex:1, allowSorting: true, headerKey: 'passengerName', keyColumn: false})
         passengerName : string;
@@ -16,45 +22,21 @@ export class vPassengerInvoiceBase {
 //#endregion passengerAge Prop
 
 
-//#region stationSP Prop
-        @gridColumn({visible: true, columnIndex:3, allowSorting: true, headerKey: 'stationSP', keyColumn: false})
-        stationSP : string;
-//#endregion stationSP Prop
+//#region passengerGender Prop
+        @gridColumn({visible: true, columnIndex:3, allowSorting: true, headerKey: 'passengerGender', keyColumn: false})
+        passengerGender : string;
+//#endregion passengerGender Prop
 
 
-//#region stationEP Prop
-        @gridColumn({visible: true, columnIndex:4, allowSorting: true, headerKey: 'stationEP', keyColumn: false})
-        stationEP : string;
-//#endregion stationEP Prop
+//#region passengerCountry Prop
+        @gridColumn({visible: true, columnIndex:4, allowSorting: true, headerKey: 'passengerCountry', keyColumn: false})
+        passengerCountry : string;
+//#endregion passengerCountry Prop
 
 
-//#region day Prop
-        @gridColumn({visible: true, columnIndex:5, allowSorting: true, headerKey: 'day', keyColumn: false})
-        day : string;
-//#endregion day Prop
-
-
-//#region class Prop
-        @gridColumn({visible: true, columnIndex:6, allowSorting: true, headerKey: 'class', keyColumn: false})
-        class : string;
-//#endregion class Prop
-
-
-//#region tcount Prop
-        @gridColumn({visible: true, columnIndex:7, allowSorting: true, headerKey: 'tcount', keyColumn: false})
-        tcount : number;
-//#endregion tcount Prop
-
-
-//#region passengerId Prop
-        @gridColumn({visible: true, columnIndex:8, allowSorting: true, headerKey: 'passengerId', keyColumn: false})
-        passengerId : number;
-//#endregion passengerId Prop
-
-
-//#region userId Prop
-        @gridColumn({visible: true, columnIndex:9, allowSorting: true, headerKey: 'userId', keyColumn: false})
-        userId : number;
-//#endregion userId Prop
+//#region paymentAmount Prop
+        @gridColumn({visible: true, columnIndex:5, allowSorting: true, headerKey: 'paymentAmount', keyColumn: false})
+        paymentAmount : any;
+//#endregion paymentAmount Prop
 
 }

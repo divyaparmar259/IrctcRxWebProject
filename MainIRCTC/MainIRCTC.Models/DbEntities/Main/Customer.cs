@@ -101,26 +101,19 @@ namespace MainIRCTC.Models.Main
 
         public long AadharCardNumber { get; set; }
 
-		#region PassengerInvoice Annotations
+		#region BookTrainResult Annotations
 
         [InverseProperty("Customer")]
-		#endregion PassengerInvoice Annotations
+		#endregion BookTrainResult Annotations
 
-        public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
+        public virtual ICollection<BookTrainResult> BookTrainResult { get; set; }
 
-		#region Passengers Annotations
-
-        [InverseProperty("Customer")]
-		#endregion Passengers Annotations
-
-        public virtual ICollection<Passenger> Passengers { get; set; }
-
-		#region HotelBooking Annotations
+		#region EWallet Annotations
 
         [InverseProperty("Customer")]
-		#endregion HotelBooking Annotations
+		#endregion EWallet Annotations
 
-        public virtual ICollection<HotelBooking> HotelBooking { get; set; }
+        public virtual ICollection<EWallet> EWallet { get; set; }
 
 		#region HotelBookingReview Annotations
 
@@ -136,6 +129,13 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<Payment> Payment { get; set; }
 
+		#region PassengerInvoice Annotations
+
+        [InverseProperty("Customer")]
+		#endregion PassengerInvoice Annotations
+
+        public virtual ICollection<PassengerInvoice> PassengerInvoice { get; set; }
+
 		#region Cards Annotations
 
         [InverseProperty("Customer")]
@@ -143,31 +143,31 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<Card> Cards { get; set; }
 
-		#region EWallet Annotations
+		#region Passengers Annotations
 
         [InverseProperty("Customer")]
-		#endregion EWallet Annotations
+		#endregion Passengers Annotations
 
-        public virtual ICollection<EWallet> EWallet { get; set; }
+        public virtual ICollection<Passenger> Passengers { get; set; }
 
-		#region PNRGeneration Annotations
+		#region HotelBooking Annotations
 
         [InverseProperty("Customer")]
-		#endregion PNRGeneration Annotations
+		#endregion HotelBooking Annotations
 
-        public virtual ICollection<PNRGeneration> PNRGeneration { get; set; }
+        public virtual ICollection<HotelBooking> HotelBooking { get; set; }
 
 
         public Customer()
         {
-			PassengerInvoice = new HashSet<PassengerInvoice>();
-			Passengers = new HashSet<Passenger>();
-			HotelBooking = new HashSet<HotelBooking>();
+			BookTrainResult = new HashSet<BookTrainResult>();
+			EWallet = new HashSet<EWallet>();
 			HotelBookingReview = new HashSet<HotelBookingReview>();
 			Payment = new HashSet<Payment>();
+			PassengerInvoice = new HashSet<PassengerInvoice>();
 			Cards = new HashSet<Card>();
-			EWallet = new HashSet<EWallet>();
-			PNRGeneration = new HashSet<PNRGeneration>();
+			Passengers = new HashSet<Passenger>();
+			HotelBooking = new HashSet<HotelBooking>();
         }
 	}
 }

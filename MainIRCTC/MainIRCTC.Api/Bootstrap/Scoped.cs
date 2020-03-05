@@ -133,7 +133,10 @@ namespace MainIRCTC.Api.Bootstrap
             serviceCollection.AddScoped<IPassengerDetailDomain, PassengerDetailDomain>();
             
             serviceCollection.AddScoped<IPassengerInvoiceDetailDomain, PassengerInvoiceDetailDomain>();
+            
+            serviceCollection.AddScoped<IvPassengerInvoiceDomain, vPassengerInvoiceDomain>();
             #endregion DomainService
+
 
 
 

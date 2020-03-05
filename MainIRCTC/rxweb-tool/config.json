@@ -7,7 +7,7 @@
 	"unitOfWork": "MainIRCTC.UnitOfWork",
     "infrastructure": "MainIRCTC.Infrastructure",
     "azureFunctionHttp":"",
-    "portal":"",
+    "portal":"MainIRCTC-portal",
     "azureFunctionBackground":""
   },
   "path": {

@@ -13,19 +13,20 @@ namespace MainIRCTC.Models.Main
     {
 		#region BookTrainId Annotations
 
-        [Required]
-        [MaxLength(10)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [System.ComponentModel.DataAnnotations.Key]
 		#endregion BookTrainId Annotations
 
-        public string BookTrainId { get; set; }
+        public int BookTrainId { get; set; }
 
 		#region UserId Annotations
 
+        [Range(1,int.MaxValue)]
         [Required]
-        [MaxLength(10)]
+        [RelationshipTableAttribue("Customers","dbo","","UserId")]
 		#endregion UserId Annotations
 
-        public string UserId { get; set; }
+        public int UserId { get; set; }
 
 		#region TrainName Annotations
 
@@ -91,13 +92,20 @@ namespace MainIRCTC.Models.Main
 
         public string TrainApplicationObjectClassName { get; set; }
 
-		#region data Annotations
+		#region FarePerPerson Annotations
 
         [Required]
-        [MaxLength(50)]
-		#endregion data Annotations
+		#endregion FarePerPerson Annotations
 
-        public string data { get; set; }
+        public double FarePerPerson { get; set; }
+
+		#region Customer Annotations
+
+        [ForeignKey(nameof(UserId))]
+        [InverseProperty(nameof(MainIRCTC.Models.Main.Customer.BookTrainResult))]
+		#endregion Customer Annotations
+
+        public virtual Customer Customer { get; set; }
 
 
         public BookTrainResult()

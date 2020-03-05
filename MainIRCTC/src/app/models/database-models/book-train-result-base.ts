@@ -5,16 +5,15 @@ import { gridColumn } from "@rxweb/grid"
 export class BookTrainResultBase {
 
 //#region bookTrainId Prop
-        @required()
-        @maxLength({value:10})
-        bookTrainId : string;
+        @prop()
+        bookTrainId : number;
 //#endregion bookTrainId Prop
 
 
 //#region userId Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        @maxLength({value:10})
-        userId : string;
+        userId : number;
 //#endregion userId Prop
 
 
@@ -79,5 +78,7 @@ export class BookTrainResultBase {
         @maxLength({value:50})
         data : string;
 //#endregion data Prop
+
+
 
 }

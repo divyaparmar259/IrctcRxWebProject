@@ -36,18 +36,18 @@ namespace MainIRCTC.Domain.TrainModule
 
         public async Task AddAsync(BookTrainResult entity)
         {
-            var spParameters = new SqlParameter[11];
-            spParameters[0] = new SqlParameter() { ParameterName = "BookTrainId", Value = entity.BookTrainId };
-            spParameters[1] = new SqlParameter() { ParameterName = "UserId", Value = entity.UserId };
-            spParameters[2] = new SqlParameter() { ParameterName = "TrainName", Value = entity.TrainName };
-            spParameters[3] = new SqlParameter() { ParameterName = "StationStartingPoint", Value = entity.StationStartingPoint };
-            spParameters[4] = new SqlParameter() { ParameterName = "StationEndingPoint", Value = entity.StationEndingPoint };
-            spParameters[5] = new SqlParameter() { ParameterName = "StationArriveTime", Value = entity.StationArriveTime };
-            spParameters[6] = new SqlParameter() { ParameterName = "StationDepartTime", Value = entity.StationDepartTime };
-            spParameters[7] = new SqlParameter() { ParameterName = "TrainObjectTypeName", Value = entity.TrainObjectTypeName };
-            spParameters[8] = new SqlParameter() { ParameterName = "TrainAvailableDay", Value = entity.TrainAvailableDay };
-            spParameters[9] = new SqlParameter() { ParameterName = "TrainApplicationObjectClassName", Value = entity.TrainApplicationObjectClassName };
-            spParameters[10] = new SqlParameter() { ParameterName = "data", Value = entity.data };
+            var spParameters = new SqlParameter[10];
+            
+            spParameters[0] = new SqlParameter() { ParameterName = "UserId", Value = entity.UserId };
+            spParameters[1] = new SqlParameter() { ParameterName = "TrainName", Value = entity.TrainName };
+            spParameters[2] = new SqlParameter() { ParameterName = "StationStartingPoint", Value = entity.StationStartingPoint };
+            spParameters[3] = new SqlParameter() { ParameterName = "StationEndingPoint", Value = entity.StationEndingPoint };
+            spParameters[4] = new SqlParameter() { ParameterName = "StationArriveTime", Value = entity.StationArriveTime };
+            spParameters[5] = new SqlParameter() { ParameterName = "StationDepartTime", Value = entity.StationDepartTime };
+            spParameters[6] = new SqlParameter() { ParameterName = "TrainObjectTypeName", Value = entity.TrainObjectTypeName };
+            spParameters[7] = new SqlParameter() { ParameterName = "TrainAvailableDay", Value = entity.TrainAvailableDay };
+            spParameters[8] = new SqlParameter() { ParameterName = "TrainApplicationObjectClassName", Value = entity.TrainApplicationObjectClassName };
+            spParameters[9] = new SqlParameter() { ParameterName = "FarePerPerson", Value = entity.FarePerPerson };
             
 
             await DbContextManager.StoreProc<StoreProcResult>("[dbo].spBookTrainResult ", spParameters);

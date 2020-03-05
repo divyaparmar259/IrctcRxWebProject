@@ -65,6 +65,13 @@ namespace MainIRCTC.Models.Main
 
         public int TrainFarePerKm { get; set; }
 
+		#region TrainAvailable Annotations
+
+        [InverseProperty("Train")]
+		#endregion TrainAvailable Annotations
+
+        public virtual ICollection<TrainAvailable> TrainAvailable { get; set; }
+
 		#region Stations Annotations
 
         [InverseProperty("Train")]
@@ -79,19 +86,12 @@ namespace MainIRCTC.Models.Main
 
         public virtual ICollection<TrainApplicationObjectType> TrainApplicationObjectType { get; set; }
 
-		#region TrainAvailable Annotations
-
-        [InverseProperty("Train")]
-		#endregion TrainAvailable Annotations
-
-        public virtual ICollection<TrainAvailable> TrainAvailable { get; set; }
-
 
         public Train()
         {
+			TrainAvailable = new HashSet<TrainAvailable>();
 			Stations = new HashSet<Station>();
 			TrainApplicationObjectType = new HashSet<TrainApplicationObjectType>();
-			TrainAvailable = new HashSet<TrainAvailable>();
         }
 	}
 }

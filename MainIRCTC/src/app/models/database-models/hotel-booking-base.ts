@@ -36,6 +36,12 @@ export class HotelBookingBase {
 //#endregion userCheckOutDate Prop
 
 
+//#region totalPrice Prop
+        @required()
+        totalPrice : any;
+//#endregion totalPrice Prop
+
+
 
 
 

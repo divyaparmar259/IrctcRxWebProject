@@ -6379,11 +6379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
+      "projectUniqueName": "D:\\1\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
       "projectName": "MainIRCTC.UnitOfWork",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
+      "projectPath": "D:\\1\\MainIRCTC\\MainIRCTC.UnitOfWork\\MainIRCTC.UnitOfWork.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.UnitOfWork\\obj\\",
+      "outputPath": "D:\\1\\MainIRCTC\\MainIRCTC.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6399,8 +6399,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
+            "D:\\1\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj": {
+              "projectPath": "D:\\1\\MainIRCTC\\MainIRCTC.BoundedContext\\MainIRCTC.BoundedContext.csproj"
             }
           }
         }

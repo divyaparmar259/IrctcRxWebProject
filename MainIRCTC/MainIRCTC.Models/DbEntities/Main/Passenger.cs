@@ -13,8 +13,8 @@ namespace MainIRCTC.Models.Main
     {
 		#region PassengerId Annotations
 
-        [Range(1,int.MaxValue)]
-        [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [System.ComponentModel.DataAnnotations.Key]
 		#endregion PassengerId Annotations
 
         public int PassengerId { get; set; }

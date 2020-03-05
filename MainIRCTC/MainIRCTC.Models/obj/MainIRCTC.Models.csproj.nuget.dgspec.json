@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {}
+    "D:\\1\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
+    "D:\\1\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
+        "projectUniqueName": "D:\\1\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
         "projectName": "MainIRCTC.Models",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
+        "projectPath": "D:\\1\\MainIRCTC\\MainIRCTC.Models\\MainIRCTC.Models.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\New folder\\MainIRCTC\\MainIRCTC.Models\\obj\\",
+        "outputPath": "D:\\1\\MainIRCTC\\MainIRCTC.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
